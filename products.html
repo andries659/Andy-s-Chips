@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Online Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Uni Sans';
+            src: url('fonts/UniSansRegular.woff2') format('woff2'),
+                 url('fonts/UniSansRegular.woff') format('woff'),
+                 url('fonts/UniSansRegular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Uni Sans Bold';
+            src: url('fonts/UniSansBold.woff2') format('woff2'),
+                 url('fonts/UniSansBold.woff') format('woff'),
+                 url('fonts/UniSansBold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Uni Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        .header ul {
+            padding: 0;
+            list-style: none;
+        }
+        .header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .header #branding {
+            float: left;
+        }
+        .header #branding h1 {
+            margin: 0;
+            font-family: 'Uni Sans Bold', Arial, sans-serif;
+        }
+        .header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .products {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .product-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .product-item img {
+            margin-right: 20px;
+            width: 100px;
+            height: 100px;
+        }
+        .product-item h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+            font-family: 'Uni Sans Bold', Arial, sans-serif;
+        }
+        .product-item p {
+            margin: 5px 0;
+        }
+        .product-item button {
+            padding: 10px 20px;
+            background-color: #0779e4;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .product-item button:hover {
+            background-color: #055bb5;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div id="branding">
+                <img src="images/logo.png" alt="Logo">
+                <h1>Andy's Chips</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="products">
+            <h2>Our Products</h2>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/100" alt="Product Image">
+                <div>
+                    <h3>Product Name 1</h3>
+                    <p>Description of product 1.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/100" alt="Product Image">
+                <div>
+                    <h3>Product Name 2</h3>
+                    <p>Description of product 2.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </div>
+</body>
+</html>

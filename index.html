@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Uni Sans';
+            src: url('fonts/UniSansRegular.woff2') format('woff2'),
+                 url('fonts/UniSansRegular.woff') format('woff'),
+                 url('fonts/UniSansRegular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Uni Sans Bold';
+            src: url('fonts/UniSansBold.woff2') format('woff2'),
+                 url('fonts/UniSansBold.woff') format('woff'),
+                 url('fonts/UniSansBold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Uni Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding-top: 10px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+            display: flex;
+            align-items: center;
+        }
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        .header ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            margin: 0;
+            align-items: center;
+        }
+        .header li {
+            display: inline;
+            padding: 0 20px;
+        }
+        .header #branding {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+        }
+        .header #branding img {
+            height: 50px;
+            margin-right: 20px;
+        }
+        .header #branding h1 {
+            margin: 0;
+            font-family: 'Uni Sans Bold', Arial, sans-serif;
+        }
+        .header nav {
+            display: flex;
+            align-items: center;
+        }
+        .hero {
+            text-align: center;
+            margin-top: 100px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            font-family: 'Uni Sans Bold', Arial, sans-serif;
+        }
+        .hero p {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div id="branding">
+                <img src="images/logo.png" alt="Logo">
+                <h1>Online Store</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="hero">
+            <h1>Welcome to Andy's Chips</h1>
+            <p>Explore our products and add them to your cart.</p>
+        </div>
+    </div>
+</body>
+</html>

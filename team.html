@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Andy's Chips</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Uni Sans';
+            src: url('fonts/UniSansRegular.woff2') format('woff2'),
+                 url('fonts/UniSansRegular.woff') format('woff'),
+                 url('fonts/UniSansRegular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Uni Sans Bold';
+            src: url('fonts/UniSansBold.woff2') format('woff2'),
+                 url('fonts/UniSansBold.woff') format('woff'),
+                 url('fonts/UniSansBold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Uni Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #353535;
+            color: #fff;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 12px solid;
+        }
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        .header ul {
+            padding: 0;
+            list-style: none;
+        }
+        .header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .header #branding {
+            float: left;
+        }
+        .header #branding h1 {
+            margin: 0;
+            font-family: 'Uni Sans Bold', Arial, sans-serif;
+        }
+        .header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .team-section {
+            background: #353535;
+            padding: 20px;
+            margin: 20px 0;
+            border: 5px solid #00c3ff;
+            border-radius: 4px;
+            color: #11aeca;
+        }
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .team-member img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 100px;
+            height: 100px;
+        }
+        .team-member h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+            font-family: 'Uni Sans Bold', Arial, sans-serif;
+            color: #16a0a0;
+        }
+        .team-member p {
+            margin: 5px 0;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div id="branding">
+                <img src="images/logo.png" alt="Logo">
+                <h1>Online Store</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Welcome to the staff team!</h2>
+        <p>Take a look at our staff, and get to know them!.</p>
+
+        <div class="team-section">
+            <h2>Meet Our Team</h2>
+            <div class="team-member">
+                <img src="https://cdn.discordapp.com/avatars/1207676769998610445/dbdeba6185308a23552ae9aa76b0f45b.png?size=2048&format=webp&quality=lossless&width=0&height=230" alt="Team Member Photo">
+                <div>
+                    <h3>Andries van der Westhuizen</h3>
+                    <p><b>Owner</b></p>
+                    <p>"Life's too short to stress over little things"</p>
+                    <p>Andries is the visionary behind our online store and ensures everything runs smoothly.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="https://cdn.discordapp.com/avatars/702366613038694430/a_d7bcadc2b2446a309c71120f36732a7b.gif?size=2048&width=0&height=230" alt="Team Member Photo">
+                <div>
+                    <h3>Tyous</h3>
+                    <p><b>Co-Owner & Marketing Team</b></p>
+                    <p>Tyous is in charge of most of the things, also ensures the best marketing we can offer.</p>
+                    <p>Placeholder Caption - Requested by user</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="https://cdn.discordapp.com/avatars/311844298180001793/90ed5bd683b9a560eaf46a2babd3d12e.png?size=2048&format=webp&quality=lossless&width=0&height=230" alt="Team Member Photo">
+                <div>
+                    <h3>Saint</h3>
+                    <p><b>Marketing Team</b></p>
+                    <p>"I used to think that I had tried it all. Well, that was until I tasted Andy's Chips. Now I know that I've tried the best and that's all that matters"</p>
+                    <p>Saint is in charge of our marketing system, ensuring the best marketing we can offer.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="https://cdn.discordapp.com/avatars/637318487215308800/a_7a10a8602a324a3987eb688dd4d17b90.gif?size=2048&width=0&height=230" alt="Team Member Photo">
+                <div>
+                    <h3>Gemmi</h3>
+                    <p><b>Designer</b></p>
+                    <p>Gemmi designs our packaging, and our logo.</p>
+                    <p>Placeholder Caption - Requested by user</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
