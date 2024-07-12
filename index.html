@@ -26,8 +26,18 @@
             font-family: 'Uni Sans', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
+            background-color: #8b2868;
         }
+        h1 { 
+            position: left; 
+
+            font-size: 40px; 
+            font-family: 'Uni Sans', Arial, sans-serif;
+            background: linear-gradient(to right, #f32170, 
+                    #ff6b08, #cf23cf, #eedd44); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+        } 
         .container {
             width: 80%;
             margin: auto;
@@ -35,15 +45,15 @@
         }
         .header {
             background: #333;
-            color: #fff;
-            padding-top: 10px;
-            min-height: 70px;
-            border-bottom: #0779e4 3px solid;
+            color: #ffffff;
+            padding-top:0px;
+            min-height: 90px;
+            border-bottom: #0779e4 10px solid;
             display: flex;
             align-items: center;
         }
         .header a {
-            color: #fff;
+            color: #ffffff;
             text-decoration: none;
             text-transform: uppercase;
             font-size: 16px;
@@ -56,31 +66,30 @@
             align-items: center;
         }
         .header li {
+            float: left;
             display: inline;
-            padding: 0 20px;
+            padding: 0 20px 0 20px;
         }
         .header #branding {
-            flex-grow: 1;
-            display: flex;
-            align-items: center;
-        }
-        .header #branding img {
-            height: 50px;
-            margin-right: 20px;
+            float: left;
         }
         .header #branding h1 {
             margin: 0;
             font-family: 'Uni Sans Bold', Arial, sans-serif;
         }
         .header nav {
-            display: flex;
-            align-items: center;
+            float: right;
+            margin-top: 10px;
         }
         .hero {
             text-align: center;
             margin-top: 100px;
         }
         .hero h1 {
+            font-size: 48px;
+            font-family: 'Uni Sans Bold', Arial, sans-serif;
+        }
+        .hero h2 {
             font-size: 48px;
             font-family: 'Uni Sans Bold', Arial, sans-serif;
         }
@@ -93,7 +102,6 @@
     <header class="header">
         <div class="container">
             <div id="branding">
-                <img src="images/logo.png" alt="Logo">
                 <h1>Andy's Chips</h1>
             </div>
             <nav>
@@ -108,7 +116,7 @@
     </header>
     <div class="container">
         <div class="hero">
-            <h1>Welcome to Andy's Chips</h1>
+            <h2>Welcome to Andy's Chips</h2>
             <p>Explore our products and add them to your cart.</p>
         </div>
     </div>
