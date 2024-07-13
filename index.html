@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Store</title>
+    <title>Andy's Chips</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.png" type="image/png">
     <style>
         @font-face {
             font-family: 'Uni Sans';
@@ -26,7 +27,8 @@
             font-family: 'Uni Sans', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #8b2868;
+            background: linear-gradient(to right, #00ff22, 
+                   #23cf8d); 
         }
         h1 { 
             position: left; 
@@ -37,7 +39,15 @@
                     #ff6b08, #cf23cf, #eedd44); 
             -webkit-text-fill-color: transparent; 
             -webkit-background-clip: text; 
-        } 
+        }
+        p { 
+            position: center; 
+
+            font-family: 'Uni Sans', Arial, sans-serif;
+            background: #000000;
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+        }
         .container {
             width: 80%;
             margin: auto;
@@ -53,10 +63,10 @@
             align-items: center;
         }
         .header a {
-            color: #ffffff;
+            color: #000000;
             text-decoration: none;
             text-transform: uppercase;
-            font-size: 16px;
+            font-size: 18px;
         }
         .header ul {
             padding: 0;
@@ -73,9 +83,17 @@
         .header #branding {
             float: left;
         }
+        .header #branding img {
+            height: 47.6px; /* Adjust this value to control the logo size */
+            width: auto;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
         .header #branding h1 {
             margin: 0;
             font-family: 'Uni Sans Bold', Arial, sans-serif;
+            display: inline-block;
+            vertical-align: middle;
         }
         .header nav {
             float: right;
@@ -102,6 +120,7 @@
     <header class="header">
         <div class="container">
             <div id="branding">
+                <img src="images/logo.png" alt="A's-C Logo">
                 <h1>Andy's Chips</h1>
             </div>
             <nav>
@@ -116,8 +135,8 @@
     </header>
     <div class="container">
         <div class="hero">
-            <h2>Welcome to Andy's Chips</h2>
-            <p>Explore our products and add them to your cart.</p>
+            <h2><font color="#ffcc41">Welcome to Andy's Chips</font></h2>
+            <p><b>Your one-stop shop for all your chip needs.</b></p>
         </div>
     </div>
 </body>
