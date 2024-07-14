@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andy's Chips</title>
+    <title>Home - Andy's Chips</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/logo.png" type="image/png">
     <style>
@@ -40,11 +40,23 @@
             -webkit-text-fill-color: transparent; 
             -webkit-background-clip: text; 
         }
-        p { 
-            position: center; 
+        h2 { 
+            position: left; 
 
+            font-size: 40px; 
             font-family: 'Uni Sans', Arial, sans-serif;
-            background: #000000;
+            background: linear-gradient(to right, #f32170, 
+                    #ff6b08, #cf23cf); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+        }
+        h3 { 
+            position: left; 
+
+            font-size: 40px; 
+            font-family: 'Uni Sans', Arial, sans-serif;
+            background: linear-gradient(to right, #0044ff, 
+                    #00fff2); 
             -webkit-text-fill-color: transparent; 
             -webkit-background-clip: text; 
         }
@@ -108,11 +120,19 @@
             font-family: 'Uni Sans Bold', Arial, sans-serif;
         }
         .hero h2 {
-            font-size: 48px;
+            font-size: 56px;
+            font-family: 'Uni Sans Bold', Arial, sans-serif;
+        }
+        .hero h3 {
+            float: center;
+            font-size: 34px;
             font-family: 'Uni Sans Bold', Arial, sans-serif;
         }
         .hero p {
-            font-size: 24px;
+            font-size: 32px;
+        }
+        .hero p2 {
+            font-size: 32px;
         }
     </style>
 </head>
@@ -135,8 +155,19 @@
     </header>
     <div class="container">
         <div class="hero">
-            <h2><font color="#ffcc41">Welcome to Andy's Chips</font></h2>
-            <p><b>Your one-stop shop for all your chip needs.</b></p>
+            <h2>Andy's Chips</h2>
+            <p><i>Your</i> <b><font color="#f32170">one-stop</font></b> <i>shop for all your chip needs.</i></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hero">
+            <h3>Top Picks:</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hero">
+            <h2>What we offer:</h2>
+            <p>We offer the best experience that any customer can ask for, and we look forward to give the best experience!<br>What we also offer:</br></p>
         </div>
     </div>
 </body>
